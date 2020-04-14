@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :http => "https://github.com/brion/VPX-iOS/releases/download/" + ver + "/VPX-iOS.zip",
+  s.source       = { :http => "https://androidzx.oss-cn-beijing.aliyuncs.com/VPX-iOS.zip",
                      :sha1 => sha1,
                      :flatten => true }
 
